@@ -1,0 +1,24 @@
+{
+  "proxies": [
+    {
+      "proxy": {
+        "baseUrl": "https://localhost:9001",
+        "cert": {
+          "keyStore": {
+            "file": "./proxy-server.jks"
+          },
+          "keyStorePassword": "password",
+          "mtlsEnabled": true
+        },
+        "target": "https://api.example.com:9443",
+        "targetCert": {
+          "keyStore": {
+            "file": "./proxy-client.jks"
+          },
+          "keyStorePassword": "password"
+        }
+      }
+    }
+  ],
+  "version": 3
+}

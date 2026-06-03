@@ -1,0 +1,23 @@
+{
+  "components": {
+    "certificates": {
+      "proxyClientCert": {
+        "keyStore": {
+          "file": "./proxy-client.jks"
+        },
+        "keyStorePassword": "password"
+      }
+    }
+  },
+  "proxies": [
+    {
+      "proxy": {
+        "target": "https://api.example.com:9443",
+        "targetCert": {
+          "$ref": "#/components/certificates/proxyClientCert"
+        }
+      }
+    }
+  ],
+  "version": 3
+}

@@ -1072,6 +1072,9 @@
         "cert": {
           "$ref": "#/definitions/CertConfigurationOrRef"
         },
+        "targetCert": {
+          "$ref": "#/definitions/CertConfigurationOrRef"
+        },
         "recordingsDirectory": {
           "$ref": "#/definitions/SubstitutableString"
         }

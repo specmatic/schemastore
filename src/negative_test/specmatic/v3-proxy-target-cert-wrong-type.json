@@ -1,0 +1,11 @@
+{
+  "proxies": [
+    {
+      "proxy": {
+        "target": "https://api.example.com:9443",
+        "targetCert": "./proxy-client.jks"
+      }
+    }
+  ],
+  "version": 3
+}

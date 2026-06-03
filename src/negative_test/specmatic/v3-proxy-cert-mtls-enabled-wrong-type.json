@@ -1,0 +1,16 @@
+{
+  "proxies": [
+    {
+      "proxy": {
+        "cert": {
+          "keyStore": {
+            "file": "./proxy-server.jks"
+          },
+          "mtlsEnabled": ["yes"]
+        },
+        "target": "https://api.example.com:9443"
+      }
+    }
+  ],
+  "version": 3
+}
