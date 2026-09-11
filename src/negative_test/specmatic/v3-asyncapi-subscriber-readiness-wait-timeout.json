@@ -1,0 +1,13 @@
+{
+  "components": {
+    "runOptions": {
+      "userApiService": {
+        "asyncapi": {
+          "subscriberReadinessWaitTimeout": 3000,
+          "type": "test"
+        }
+      }
+    }
+  },
+  "version": 3
+}
